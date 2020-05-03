@@ -225,9 +225,11 @@ git clone  远程地址
   `本地存在clone下来的文件  就用pull更新`  
 
 ```
-pull = fetch + merge
-	git fetch 别名 分支名
-	git merge 别名 分支名
+pull = fetch + merge 
+fetch 取得文件到本地但沒有改冩本地內容
+	git fetch 地址别名 远程分支名 #git fetch origin master
+merge 把fetch取得的文件和本地的文件进行合并,意指改冩本地內容
+	git merge 地址别名 远程分支名 # git merge origin/master
 git pull 别名 分支名
 ```
 
