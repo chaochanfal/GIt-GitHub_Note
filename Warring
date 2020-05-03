@@ -1,0 +1,18 @@
+
+Q:
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/chaochanfal/WebTest.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'No
+
+Thanks,
+The GitHub Team
+
+A: https://blog.csdn.net/u013120247/article/details/53263169
+
+
+First $ git pull --rebase origin master
+Second $ git push origin master
