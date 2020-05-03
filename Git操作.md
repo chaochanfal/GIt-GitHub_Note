@@ -160,7 +160,7 @@ git branch -v
 - 切换分支
 
 ~~~
-git checkout 分支名
+git checkout 分支名 #指的是把托管庫下載到本地庫的master 分支上 # 切換 git checkout origin/master # 回切 git checkout master
 git checkout -b 分支名   #创建分支并直接切换到该分支
 ~~~
 
